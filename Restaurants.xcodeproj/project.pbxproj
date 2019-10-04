@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		12656C2E2339349A00FEB7DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12656C2D2339349A00FEB7DF /* AppDelegate.swift */; };
-		12656C302339349A00FEB7DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12656C2F2339349A00FEB7DF /* ViewController.swift */; };
 		12656C332339349A00FEB7DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12656C312339349A00FEB7DF /* Main.storyboard */; };
 		12656C352339349C00FEB7DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12656C342339349C00FEB7DF /* Assets.xcassets */; };
 		12656C382339349C00FEB7DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12656C362339349C00FEB7DF /* LaunchScreen.storyboard */; };
+		12656C402339357A00FEB7DF /* FoodCourtTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12656C3F2339357A00FEB7DF /* FoodCourtTableViewController.swift */; };
+		127A3833233BD84E0023F183 /* FoodCourt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127A3832233BD84E0023F183 /* FoodCourt.swift */; };
+		128DDC872346CF1400FD0E8B /* MenuItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128DDC862346CF1400FD0E8B /* MenuItemViewController.swift */; };
+		128DDC892346CF4600FD0E8B /* AddNewMenuItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128DDC882346CF4600FD0E8B /* AddNewMenuItemViewController.swift */; };
+		12E0D67723427196002DD157 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E0D67623427196002DD157 /* MenuTableViewController.swift */; };
+		12FECAE623451707009ECB3E /* AddNewRestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FECAE523451707009ECB3E /* AddNewRestaurantViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		12656C2A2339349A00FEB7DF /* Restaurants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12656C2D2339349A00FEB7DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		12656C2F2339349A00FEB7DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		12656C322339349A00FEB7DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12656C342339349C00FEB7DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12656C372339349C00FEB7DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12656C392339349C00FEB7DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12656C3F2339357A00FEB7DF /* FoodCourtTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCourtTableViewController.swift; sourceTree = "<group>"; };
+		127A3832233BD84E0023F183 /* FoodCourt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCourt.swift; sourceTree = "<group>"; };
+		128DDC862346CF1400FD0E8B /* MenuItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemViewController.swift; sourceTree = "<group>"; };
+		128DDC882346CF4600FD0E8B /* AddNewMenuItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewMenuItemViewController.swift; sourceTree = "<group>"; };
+		12E0D67623427196002DD157 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		12FECAE523451707009ECB3E /* AddNewRestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewRestaurantViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,27 @@
 		12656C2C2339349A00FEB7DF /* Restaurants */ = {
 			isa = PBXGroup;
 			children = (
+				128D6CFA2346D0DF00A2942F /* Third Tier */,
 				12656C2D2339349A00FEB7DF /* AppDelegate.swift */,
-				12656C2F2339349A00FEB7DF /* ViewController.swift */,
 				12656C312339349A00FEB7DF /* Main.storyboard */,
 				12656C342339349C00FEB7DF /* Assets.xcassets */,
 				12656C362339349C00FEB7DF /* LaunchScreen.storyboard */,
 				12656C392339349C00FEB7DF /* Info.plist */,
+				12656C3F2339357A00FEB7DF /* FoodCourtTableViewController.swift */,
+				12E0D67623427196002DD157 /* MenuTableViewController.swift */,
+				127A3832233BD84E0023F183 /* FoodCourt.swift */,
+				12FECAE523451707009ECB3E /* AddNewRestaurantViewController.swift */,
 			);
 			path = Restaurants;
+			sourceTree = "<group>";
+		};
+		128D6CFA2346D0DF00A2942F /* Third Tier */ = {
+			isa = PBXGroup;
+			children = (
+				128DDC882346CF4600FD0E8B /* AddNewMenuItemViewController.swift */,
+				128DDC862346CF1400FD0E8B /* MenuItemViewController.swift */,
+			);
+			path = "Third Tier";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12656C302339349A00FEB7DF /* ViewController.swift in Sources */,
+				12E0D67723427196002DD157 /* MenuTableViewController.swift in Sources */,
+				12656C402339357A00FEB7DF /* FoodCourtTableViewController.swift in Sources */,
+				12FECAE623451707009ECB3E /* AddNewRestaurantViewController.swift in Sources */,
+				128DDC872346CF1400FD0E8B /* MenuItemViewController.swift in Sources */,
+				127A3833233BD84E0023F183 /* FoodCourt.swift in Sources */,
+				128DDC892346CF4600FD0E8B /* AddNewMenuItemViewController.swift in Sources */,
 				12656C2E2339349A00FEB7DF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,15 +311,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WGZ6V538F3;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Restaurants/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.Restaurants;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -301,15 +330,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WGZ6V538F3;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Restaurants/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.Restaurants;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
